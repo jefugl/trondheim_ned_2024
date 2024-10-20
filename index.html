@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d9a0bd9499ff23c72623f746f04255ad {
+                    position: relative;
+                    width: 650.0px;
+                    height: 550.0px;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+                     <h3 align="center" style="width:40%;"font-size:22px"><b>Trondheimsveien ned 2024</b></h3>
+                     
+    
+            <div class="folium-map" id="map_d9a0bd9499ff23c72623f746f04255ad" ></div>
+        
+</body>
+<script>    
+    
+            var map_d9a0bd9499ff23c72623f746f04255ad = L.map(
+                "map_d9a0bd9499ff23c72623f746f04255ad",
+                {
+                    center: [59.928, 10.782],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_46fc03db1aca93ba5683aa80cb1292d0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 10, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var marker_1119ec596fe8c1620e1ff2eadfa2a7e3 = L.marker(
+                [59.93549344315811, 10.780295184660787],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var div_icon_e8797c8534d1e97e5628f16af83c9086 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n                 color: purple\"\u003e1.Renna-Rendevouz\u003c/div\u003e"});
+            marker_1119ec596fe8c1620e1ff2eadfa2a7e3.setIcon(div_icon_e8797c8534d1e97e5628f16af83c9086);
+        
+    
+        var popup_d1bed3c78329b26746a664937ad7c664 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79533e9d7fdb6e6ba6c218a112ff7051 = $(`<div id="html_79533e9d7fdb6e6ba6c218a112ff7051" style="width: 100.0%; height: 100.0%;">Trondheimsveien 187,0570 Oslo</div>`)[0];
+                popup_d1bed3c78329b26746a664937ad7c664.setContent(html_79533e9d7fdb6e6ba6c218a112ff7051);
+            
+        
+
+        marker_1119ec596fe8c1620e1ff2eadfa2a7e3.bindPopup(popup_d1bed3c78329b26746a664937ad7c664)
+        ;
+
+        
+    
+    
+            var marker_f88e1e32e80b03fcb14621fcd7d2b685 = L.marker(
+                [59.93161304636234, 10.783032708257378],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var div_icon_74f69fb96e2616e41ade48be1c2d82bf = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n                 color: purple\"\u003e2,Wembley Sports Bar\u003c/div\u003e"});
+            marker_f88e1e32e80b03fcb14621fcd7d2b685.setIcon(div_icon_74f69fb96e2616e41ade48be1c2d82bf);
+        
+    
+        var popup_2b69bc63408ec241219570d30e52cccc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1980cad8c93189c2dfd9e6cdb77e9e5 = $(`<div id="html_c1980cad8c93189c2dfd9e6cdb77e9e5" style="width: 100.0%; height: 100.0%;">Schouterrassen 25,0573 Oslo</div>`)[0];
+                popup_2b69bc63408ec241219570d30e52cccc.setContent(html_c1980cad8c93189c2dfd9e6cdb77e9e5);
+            
+        
+
+        marker_f88e1e32e80b03fcb14621fcd7d2b685.bindPopup(popup_2b69bc63408ec241219570d30e52cccc)
+        ;
+
+        
+    
+    
+            var marker_b21ebf7a4a0e4bac3e9b23d22f96c312 = L.marker(
+                [59.92978865415876, 10.780314633800728],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var div_icon_0aaf4d7a3d34e94c6561b45af2b1f5ca = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n                 color: purple\"\u003e3.Buen Bar\u003c/div\u003e"});
+            marker_b21ebf7a4a0e4bac3e9b23d22f96c312.setIcon(div_icon_0aaf4d7a3d34e94c6561b45af2b1f5ca);
+        
+    
+        var popup_f2b588df3ca0d2c314c405a5ebd317a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ed27893a58ee103d9a77cb8a0544424 = $(`<div id="html_3ed27893a58ee103d9a77cb8a0544424" style="width: 100.0%; height: 100.0%;">Olaf Schous vei 2,0572 Oslo</div>`)[0];
+                popup_f2b588df3ca0d2c314c405a5ebd317a2.setContent(html_3ed27893a58ee103d9a77cb8a0544424);
+            
+        
+
+        marker_b21ebf7a4a0e4bac3e9b23d22f96c312.bindPopup(popup_f2b588df3ca0d2c314c405a5ebd317a2)
+        ;
+
+        
+    
+    
+            var marker_b834a403174fb77bff687e1640448583 = L.marker(
+                [59.92937470874547, 10.778352966983343],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var div_icon_63fe35c4859fa2d1f04568621f4cea1b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n                 color: purple\"\u003e4.Valentino\u003c/div\u003e"});
+            marker_b834a403174fb77bff687e1640448583.setIcon(div_icon_63fe35c4859fa2d1f04568621f4cea1b);
+        
+    
+        var popup_1bd7a57ee469140befb8ba2e25a5f29c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_995e64790aac6c63b28ae4c11f0f2223 = $(`<div id="html_995e64790aac6c63b28ae4c11f0f2223" style="width: 100.0%; height: 100.0%;">Trondheimsveien 139a,0570 Oslo</div>`)[0];
+                popup_1bd7a57ee469140befb8ba2e25a5f29c.setContent(html_995e64790aac6c63b28ae4c11f0f2223);
+            
+        
+
+        marker_b834a403174fb77bff687e1640448583.bindPopup(popup_1bd7a57ee469140befb8ba2e25a5f29c)
+        ;
+
+        
+    
+    
+            var marker_363799fb2e8e1b856f5dbaf5b39fba01 = L.marker(
+                [59.92652338340753, 10.777583954781878],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var div_icon_eb20d8e940c24e3916b97f05e79e5805 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n                 color: purple\"\u003e5.Carls\u003c/div\u003e"});
+            marker_363799fb2e8e1b856f5dbaf5b39fba01.setIcon(div_icon_eb20d8e940c24e3916b97f05e79e5805);
+        
+    
+        var popup_c1185df4965d17b511534901e85cf9d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7354177aef31785b847ab1b68a61a27d = $(`<div id="html_7354177aef31785b847ab1b68a61a27d" style="width: 100.0%; height: 100.0%;">Trondheimsveien 113, 0571 Oslo</div>`)[0];
+                popup_c1185df4965d17b511534901e85cf9d5.setContent(html_7354177aef31785b847ab1b68a61a27d);
+            
+        
+
+        marker_363799fb2e8e1b856f5dbaf5b39fba01.bindPopup(popup_c1185df4965d17b511534901e85cf9d5)
+        ;
+
+        
+    
+    
+            var marker_814f42cf113632958ae6b4bc357393d9 = L.marker(
+                [59.92262832492968, 10.769320899862388],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var div_icon_30a8275f0cbe38f894098c7af951e776 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n                 color: purple\"\u003e6.Perla\u003c/div\u003e"});
+            marker_814f42cf113632958ae6b4bc357393d9.setIcon(div_icon_30a8275f0cbe38f894098c7af951e776);
+        
+    
+        var popup_467e39e3cddfc85cc031f02fd13d899c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9e8958511a9af9cc5f0bb6a4b646da2 = $(`<div id="html_b9e8958511a9af9cc5f0bb6a4b646da2" style="width: 100.0%; height: 100.0%;">Helgesens gate 66,0558 Oslo</div>`)[0];
+                popup_467e39e3cddfc85cc031f02fd13d899c.setContent(html_b9e8958511a9af9cc5f0bb6a4b646da2);
+            
+        
+
+        marker_814f42cf113632958ae6b4bc357393d9.bindPopup(popup_467e39e3cddfc85cc031f02fd13d899c)
+        ;
+
+        
+    
+    
+            var marker_e67d1bb6fca3884594176c5a53a6c40d = L.marker(
+                [59.921071303607526, 10.770385044083538],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var div_icon_68a6584f5e17aaf5670093aad4b9ef68 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n                 color: purple\"\u003e7.Pane \u0026 Vino\u003c/div\u003e"});
+            marker_e67d1bb6fca3884594176c5a53a6c40d.setIcon(div_icon_68a6584f5e17aaf5670093aad4b9ef68);
+        
+    
+        var popup_38ff6a667959fbd3a9b6ec0f60092b34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc602d0cf3dc2881cf964056c719fe03 = $(`<div id="html_bc602d0cf3dc2881cf964056c719fe03" style="width: 100.0%; height: 100.0%;">Trondheimsveien 37,0560 Oslo</div>`)[0];
+                popup_38ff6a667959fbd3a9b6ec0f60092b34.setContent(html_bc602d0cf3dc2881cf964056c719fe03);
+            
+        
+
+        marker_e67d1bb6fca3884594176c5a53a6c40d.bindPopup(popup_38ff6a667959fbd3a9b6ec0f60092b34)
+        ;
+
+        
+    
+    
+            var marker_1de43b9b34b568eff0e3470cdec5a362 = L.marker(
+                [59.92006288485663, 10.766156071292523],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var div_icon_b709b70fd6663e0eff4da1c54e2000b7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n                 color: purple\"\u003e8.Ocean\u003c/div\u003e"});
+            marker_1de43b9b34b568eff0e3470cdec5a362.setIcon(div_icon_b709b70fd6663e0eff4da1c54e2000b7);
+        
+    
+        var popup_455cbb1bf7f0feca3d08ebce07f3e5c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_602b44b2a47193a1f5b406528c9e581d = $(`<div id="html_602b44b2a47193a1f5b406528c9e581d" style="width: 100.0%; height: 100.0%;">Trondheimsveien 20A,0560 Oslo</div>`)[0];
+                popup_455cbb1bf7f0feca3d08ebce07f3e5c9.setContent(html_602b44b2a47193a1f5b406528c9e581d);
+            
+        
+
+        marker_1de43b9b34b568eff0e3470cdec5a362.bindPopup(popup_455cbb1bf7f0feca3d08ebce07f3e5c9)
+        ;
+
+        
+    
+    
+            var marker_cb8a15d4aa04cab4f1c4a0e8e4b708b3 = L.marker(
+                [59.91850221707881, 10.760228810326705],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var div_icon_2d6d6a9330a19d1dc5b7ede357e5e9f4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n                 color: purple\"\u003e9. Schouskjelleren Mikrobryggeri\u003c/div\u003e"});
+            marker_cb8a15d4aa04cab4f1c4a0e8e4b708b3.setIcon(div_icon_2d6d6a9330a19d1dc5b7ede357e5e9f4);
+        
+    
+        var popup_e63ebc00a05995fca93f1e61ad80b13f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b59779d32dc3c47817f0e49d0d59b8c5 = $(`<div id="html_b59779d32dc3c47817f0e49d0d59b8c5" style="width: 100.0%; height: 100.0%;">Trondheimsveien 2,0560,Oslo</div>`)[0];
+                popup_e63ebc00a05995fca93f1e61ad80b13f.setContent(html_b59779d32dc3c47817f0e49d0d59b8c5);
+            
+        
+
+        marker_cb8a15d4aa04cab4f1c4a0e8e4b708b3.bindPopup(popup_e63ebc00a05995fca93f1e61ad80b13f)
+        ;
+
+        
+    
+    
+            var marker_6238fb3041e196161f2088aa6d83019d = L.marker(
+                [59.93549344315811, 10.780295184660787],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var icon_10a7cd7e81e8633974f0957e9218499f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6238fb3041e196161f2088aa6d83019d.setIcon(icon_10a7cd7e81e8633974f0957e9218499f);
+        
+    
+        var popup_0742d46c63ce97b9cf0188ac056b5030 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            
+                var i_frame_d1a635247227b8f8752114f0f50382e0 = $(`<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGltZyBzcmM9aHR0cHM6Ly9zdHJlZXR2aWV3cGl4ZWxzLXBhLmdvb2dsZWFwaXMuY29tL3YxL3RodW1ibmFpbD9wYW5vaWQ9Zml4MS1Fbm9sbGgxYTdGZzNxQWczUSZjYl9jbGllbnQ9c2VhcmNoLmd3cy1wcm9kLmdwcyZ3PTQwOCZoPTI0MCZ5YXc9MTMxLjE5NzM0JnBpdGNoPTAmdGh1bWJmb3Y9MTAwPgogICAgICAgICAgICAgICAgPGJyIC8+PHNwYW4+MS5SZW5uYS1SZW5kZXZvdXo8L3NwYW4+CiAgICAgICAgICAgICAgICA8YnIgLz48c3Bhbj5Ucm9uZGhlaW1zdmVpZW4gMTg3LDA1NzAgT3Nsbzwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2Pg==" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;"></iframe></div></div>`)[0];
+                popup_0742d46c63ce97b9cf0188ac056b5030.setContent(i_frame_d1a635247227b8f8752114f0f50382e0);
+            
+        
+
+        marker_6238fb3041e196161f2088aa6d83019d.bindPopup(popup_0742d46c63ce97b9cf0188ac056b5030)
+        ;
+
+        
+    
+    
+            marker_6238fb3041e196161f2088aa6d83019d.bindTooltip(
+                `<div>
+                     Klikk på meg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24dba73a467a64102c8b0d8926cb3e4d = L.marker(
+                [59.93161304636234, 10.783032708257378],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var icon_a6a9fb7588f7391e84e13be809867edc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_24dba73a467a64102c8b0d8926cb3e4d.setIcon(icon_a6a9fb7588f7391e84e13be809867edc);
+        
+    
+        var popup_96cc3a9aa56be662bedec6fc7926df2a = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            
+                var i_frame_af4c5e817b868e75e43476b3fb0af2fa = $(`<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGltZyBzcmM9aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL3BsYWNlL1dlbWJsZXkrU3BvcnRzK0JhcitBUy9ANTkuOTMxNjE5MSwxMC43ODI4OTU2LDNhLDc1eSw5MHQvZGF0YT0hM204ITFlMiEzbTYhMXNBRjFRaXBQeVZpc210YXl2b1JhLWhDaDRFRVA0LVNqUU5sUHFhWVJDNldNNCEyZTEwITNlMTIhNnNodHRwczolMkYlMkZsaDUuZ29vZ2xldXNlcmNvbnRlbnQuY29tJTJGcCUyRkFGMVFpcFB5VmlzbXRheXZvUmEtaENoNEVFUDQtU2pRTmxQcWFZUkM2V000JTNEdzE1Mi1oODYtay1ubyE3aTE2MDAhOGk5MDAhNG03ITNtNiExczB4NDY0MTZmNzRlMWE2NzZhNToweGQ1NTkzNmQ0MjNjY2Y0OTghOG0yITNkNTkuOTMxNTYyOCE0ZDEwLjc4MzAwODMhMTBlNSExNnMlMkZnJTJGMTFidzR2dmdwaD9hdXRodXNlcj0wJmVudHJ5PXR0dSZnX2VwPUVnb3lNREkwTVRBeE5pNHdJS1hNRFNvQVNBRlFBdyUzRCUzRCM+CiAgICAgICAgICAgICAgICA8YnIgLz48c3Bhbj4yLFdlbWJsZXkgU3BvcnRzIEJhcjwvc3Bhbj4KICAgICAgICAgICAgICAgIDxiciAvPjxzcGFuPlNjaG91dGVycmFzc2VuIDI1LDA1NzMgT3Nsbzwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2Pg==" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;"></iframe></div></div>`)[0];
+                popup_96cc3a9aa56be662bedec6fc7926df2a.setContent(i_frame_af4c5e817b868e75e43476b3fb0af2fa);
+            
+        
+
+        marker_24dba73a467a64102c8b0d8926cb3e4d.bindPopup(popup_96cc3a9aa56be662bedec6fc7926df2a)
+        ;
+
+        
+    
+    
+            marker_24dba73a467a64102c8b0d8926cb3e4d.bindTooltip(
+                `<div>
+                     Klikk på meg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e007ac9a4e45d03aa03f9e853cc24fb = L.marker(
+                [59.92978865415876, 10.780314633800728],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var icon_4f3f976595a24e9ce7ce79b35f8cee35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6e007ac9a4e45d03aa03f9e853cc24fb.setIcon(icon_4f3f976595a24e9ce7ce79b35f8cee35);
+        
+    
+        var popup_efaeed81eaa78080efe5020d752d7d38 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            
+                var i_frame_af63ffba7a89220bf536977bfb3b5dd9 = $(`<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGltZyBzcmM9aHR0cHM6Ly9zdHJlZXR2aWV3cGl4ZWxzLXBhLmdvb2dsZWFwaXMuY29tL3YxL3RodW1ibmFpbD9wYW5vaWQ9TGo1NkMwZ2xJVnhZWThmTUhadmVTUSZjYl9jbGllbnQ9c2VhcmNoLmd3cy1wcm9kLmdwcyZ3PTQwOCZoPTI0MCZ5YXc9Mjk1LjI5OTg0JnBpdGNoPTAmdGh1bWJmb3Y9MTAwPgogICAgICAgICAgICAgICAgPGJyIC8+PHNwYW4+My5CdWVuIEJhcjwvc3Bhbj4KICAgICAgICAgICAgICAgIDxiciAvPjxzcGFuPk9sYWYgU2Nob3VzIHZlaSAyLDA1NzIgT3Nsbzwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2Pg==" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;"></iframe></div></div>`)[0];
+                popup_efaeed81eaa78080efe5020d752d7d38.setContent(i_frame_af63ffba7a89220bf536977bfb3b5dd9);
+            
+        
+
+        marker_6e007ac9a4e45d03aa03f9e853cc24fb.bindPopup(popup_efaeed81eaa78080efe5020d752d7d38)
+        ;
+
+        
+    
+    
+            marker_6e007ac9a4e45d03aa03f9e853cc24fb.bindTooltip(
+                `<div>
+                     Klikk på meg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55f399b65560a529fddc857747d919d5 = L.marker(
+                [59.92937470874547, 10.778352966983343],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var icon_31b8d9d9bd806e5d2b8091fb4596d30b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_55f399b65560a529fddc857747d919d5.setIcon(icon_31b8d9d9bd806e5d2b8091fb4596d30b);
+        
+    
+        var popup_d97e2cc5a51222373b7ddfcfa4be134b = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            
+                var i_frame_624d01cab94082c7967019d043daea6f = $(`<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGltZyBzcmM9aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL3BsYWNlL1ZhbGVudGlubytQaXp6ZXJpYStvZytHYXN0cm9wdWIvQDU5LjkyOTM0MjMsMTAuNzc4MzA2NiwzYSw3NXksOTB0L2RhdGE9ITNtOCExZTIhM202ITFzQUYxUWlwTWxWWlpDNVNNUE1fRjUyNkhVVXUwaDE1WWJKa1Z3bEVXcXo1YmQhMmUxMCEzZTEyITZzaHR0cHM6JTJGJTJGbGg1Lmdvb2dsZXVzZXJjb250ZW50LmNvbSUyRnAlMkZBRjFRaXBNbFZaWkM1U01QTV9GNTI2SFVVdTBoMTVZYkprVndsRVdxejViZCUzRHczOTctaDI5OC1rLW5vITdpNDAwMCE4aTMwMDAhNG05ITNtOCExczB4NDY0MTZlNDZkNmI2MDg3ZDoweGQ5M2EyN2QyZWY3Y2Q0MzghOG0yITNkNTkuOTI5MzQyMyE0ZDEwLjc3ODMwNjYhMTBlNSExNG0xITFCQ2dJZ0FSSUNFQUUhMTZzJTJGZyUyRjEybWt0MWd4aD9hdXRodXNlcj0wJmVudHJ5PXR0dSZnX2VwPUVnb3lNREkwTVRBeE5pNHdJS1hNRFNvQVNBRlFBdyUzRCUzRCM+CiAgICAgICAgICAgICAgICA8YnIgLz48c3Bhbj40LlZhbGVudGlubzwvc3Bhbj4KICAgICAgICAgICAgICAgIDxiciAvPjxzcGFuPlRyb25kaGVpbXN2ZWllbiAxMzlhLDA1NzAgT3Nsbzwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2Pg==" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;"></iframe></div></div>`)[0];
+                popup_d97e2cc5a51222373b7ddfcfa4be134b.setContent(i_frame_624d01cab94082c7967019d043daea6f);
+            
+        
+
+        marker_55f399b65560a529fddc857747d919d5.bindPopup(popup_d97e2cc5a51222373b7ddfcfa4be134b)
+        ;
+
+        
+    
+    
+            marker_55f399b65560a529fddc857747d919d5.bindTooltip(
+                `<div>
+                     Klikk på meg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bc1954d7e4450b85e0386fbbc07e86f = L.marker(
+                [59.92652338340753, 10.777583954781878],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var icon_1bca76b45853e0d96ab446aa2c56e0f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4bc1954d7e4450b85e0386fbbc07e86f.setIcon(icon_1bca76b45853e0d96ab446aa2c56e0f4);
+        
+    
+        var popup_4cb26bca144b024098af5f3bdba5df43 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            
+                var i_frame_af63db17bfcbb720fa6ce41486917188 = $(`<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGltZyBzcmM9aHR0cHM6Ly9saDUuZ29vZ2xldXNlcmNvbnRlbnQuY29tL3AvQUYxUWlwTmx0SkY5d09NN0s5QS1xM0dtMEYzZTVkRHcyOEJLaTlVVWJMVnI9dzQwOC1oNjY0LWstbm8+CiAgICAgICAgICAgICAgICA8YnIgLz48c3Bhbj41LkNhcmxzPC9zcGFuPgogICAgICAgICAgICAgICAgPGJyIC8+PHNwYW4+VHJvbmRoZWltc3ZlaWVuIDExMywgMDU3MSBPc2xvPC9zcGFuPgogICAgICAgICAgICAgICAgPC9kaXY+" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;"></iframe></div></div>`)[0];
+                popup_4cb26bca144b024098af5f3bdba5df43.setContent(i_frame_af63db17bfcbb720fa6ce41486917188);
+            
+        
+
+        marker_4bc1954d7e4450b85e0386fbbc07e86f.bindPopup(popup_4cb26bca144b024098af5f3bdba5df43)
+        ;
+
+        
+    
+    
+            marker_4bc1954d7e4450b85e0386fbbc07e86f.bindTooltip(
+                `<div>
+                     Klikk på meg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18556bdc0496087d4ab8f0debc652e83 = L.marker(
+                [59.92262832492968, 10.769320899862388],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var icon_f584060e0cfa7eb0108a78bbe1d8bed4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_18556bdc0496087d4ab8f0debc652e83.setIcon(icon_f584060e0cfa7eb0108a78bbe1d8bed4);
+        
+    
+        var popup_70e05447483b3c7f6f6392682b19dd46 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            
+                var i_frame_8347faeb2a4a4d112694b6f23e13fefd = $(`<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGltZyBzcmM9aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL3BsYWNlL1BlcmxhL0A1OS45MjI1MTIsMTAuNzY5NDE3NSwzYSw3NXksOTB0L2RhdGE9ITNtOCExZTIhM202ITFzQUYxUWlwT2tCUU1nZGh0QVU1VkdLSjd5cnAybXVwWjRmVVlKRFZYS2NJTDAhMmUxMCEzZTEyITZzaHR0cHM6JTJGJTJGbGg1Lmdvb2dsZXVzZXJjb250ZW50LmNvbSUyRnAlMkZBRjFRaXBPa0JRTWdkaHRBVTVWR0tKN3lycDJtdXBaNGZVWUpEVlhLY0lMMCUzRHcyMDMtaDI3MC1rLW5vITdpMjQ0OCE4aTMyNjQhNG03ITNtNiExczB4NDY0MTZlNDJkNjE4NDNlMToweDdiYWJhMTMxNjdkMTZlYWUhOG0yITNkNTkuOTIyNjExMiE0ZDEwLjc2OTUxNTghMTBlNSExNnMlMkZnJTJGMTFidnZ5OHAybD9hdXRodXNlcj0wJmVudHJ5PXR0dSZnX2VwPUVnb3lNREkwTVRBeE5pNHdJS1hNRFNvQVNBRlFBdyUzRCUzRCM+CiAgICAgICAgICAgICAgICA8YnIgLz48c3Bhbj42LlBlcmxhPC9zcGFuPgogICAgICAgICAgICAgICAgPGJyIC8+PHNwYW4+SGVsZ2VzZW5zIGdhdGUgNjYsMDU1OCBPc2xvPC9zcGFuPgogICAgICAgICAgICAgICAgPC9kaXY+" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;"></iframe></div></div>`)[0];
+                popup_70e05447483b3c7f6f6392682b19dd46.setContent(i_frame_8347faeb2a4a4d112694b6f23e13fefd);
+            
+        
+
+        marker_18556bdc0496087d4ab8f0debc652e83.bindPopup(popup_70e05447483b3c7f6f6392682b19dd46)
+        ;
+
+        
+    
+    
+            marker_18556bdc0496087d4ab8f0debc652e83.bindTooltip(
+                `<div>
+                     Klikk på meg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e7da5669245ad0b3eb8ca84cbb12b42 = L.marker(
+                [59.921071303607526, 10.770385044083538],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var icon_1176d4d6636a44f7e8cae7ef0111cd0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2e7da5669245ad0b3eb8ca84cbb12b42.setIcon(icon_1176d4d6636a44f7e8cae7ef0111cd0b);
+        
+    
+        var popup_49ec50ae7e1c50edcdfab971d4b94c86 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            
+                var i_frame_a7573abeabd3970bae331efe719d4530 = $(`<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGltZyBzcmM9aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL3BsYWNlL1BhbmUrJTI2K1Zpbm8vQDU5LjkyMTEyNCwxMC43NzA1NTg5LDNhLDc1eSwyMjkuMjVoLDkwdC9kYXRhPSEzbTchMWUxITNtNSExc1M5blZaajBzLXNyREw4VnJiampqN0EhMmUwITZzaHR0cHM6JTJGJTJGc3RyZWV0dmlld3BpeGVscy1wYS5nb29nbGVhcGlzLmNvbSUyRnYxJTJGdGh1bWJuYWlsJTNGcGFub2lkJTNEUzluVlpqMHMtc3JETDhWcmJqamo3QSUyNmNiX2NsaWVudCUzRG1hcHNfc3YudGFjdGlsZS5ncHMlMjZ3JTNEMjAzJTI2aCUzRDEwMCUyNnlhdyUzRDIyOS4yNDcyMiUyNnBpdGNoJTNEMCUyNnRodW1iZm92JTNEMTAwITdpMTYzODQhOGk4MTkyITRtMTchMW05ITNtOCExczB4NDY0MTZlNWNkZDk3NDZmYjoweDhhODVjYWI0MjE2OTQyMjYhMnNUcm9uZGhlaW1zdmVpZW4rMzcsKzA1NjArT3NsbyEzYjEhOG0yITNkNTkuOTIxMDc1OSE0ZDEwLjc3MDA3MTMhMTBlNSExNnMlMkZnJTJGMTFiOHY2bWQ5ZCEzbTYhMXMweDQ2NDE2ZTVjZGE0OWNmNDk6MHhmM2ZlNzU1MzhhMTlmYWExIThtMiEzZDU5LjkyMTAzODIhNGQxMC43NzAzNjM3ITEwZTUhMTZzJTJGZyUyRjF0ZDJ5MWc1P2F1dGh1c2VyPTAmY29oPTIwNTQwOSZlbnRyeT10dHUmZ19lcD1FZ295TURJME1UQXhOaTR3SUtYTURTb0FTQUZRQXclM0QlM0QjPgogICAgICAgICAgICAgICAgPGJyIC8+PHNwYW4+Ny5QYW5lICYgVmlubzwvc3Bhbj4KICAgICAgICAgICAgICAgIDxiciAvPjxzcGFuPlRyb25kaGVpbXN2ZWllbiAzNywwNTYwIE9zbG88L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4=" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;"></iframe></div></div>`)[0];
+                popup_49ec50ae7e1c50edcdfab971d4b94c86.setContent(i_frame_a7573abeabd3970bae331efe719d4530);
+            
+        
+
+        marker_2e7da5669245ad0b3eb8ca84cbb12b42.bindPopup(popup_49ec50ae7e1c50edcdfab971d4b94c86)
+        ;
+
+        
+    
+    
+            marker_2e7da5669245ad0b3eb8ca84cbb12b42.bindTooltip(
+                `<div>
+                     Klikk på meg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_035378a6ff9d95adf182c7ad00411898 = L.marker(
+                [59.92006288485663, 10.766156071292523],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var icon_c15eb3ee0ec3123db3f416616611f7bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_035378a6ff9d95adf182c7ad00411898.setIcon(icon_c15eb3ee0ec3123db3f416616611f7bc);
+        
+    
+        var popup_09d1b50ba270355bb6cf3a14bf03ec72 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            
+                var i_frame_f5e1b18cf69a6031d693398b14ba78fe = $(`<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGltZyBzcmM9aHR0cHM6Ly9zdHJlZXR2aWV3cGl4ZWxzLXBhLmdvb2dsZWFwaXMuY29tL3YxL3RodW1ibmFpbD9wYW5vaWQ9UXQ0MmpwSjF1NFY3ZmJiUTlwbUl5ZyZjYl9jbGllbnQ9c2VhcmNoLmd3cy1wcm9kLmdwcyZ3PTQwOCZoPTI0MCZ5YXc9MjkyLjA2ODg1JnBpdGNoPTAmdGh1bWJmb3Y9MTAwPgogICAgICAgICAgICAgICAgPGJyIC8+PHNwYW4+OC5PY2Vhbjwvc3Bhbj4KICAgICAgICAgICAgICAgIDxiciAvPjxzcGFuPlRyb25kaGVpbXN2ZWllbiAyMEEsMDU2MCBPc2xvPC9zcGFuPgogICAgICAgICAgICAgICAgPC9kaXY+" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;"></iframe></div></div>`)[0];
+                popup_09d1b50ba270355bb6cf3a14bf03ec72.setContent(i_frame_f5e1b18cf69a6031d693398b14ba78fe);
+            
+        
+
+        marker_035378a6ff9d95adf182c7ad00411898.bindPopup(popup_09d1b50ba270355bb6cf3a14bf03ec72)
+        ;
+
+        
+    
+    
+            marker_035378a6ff9d95adf182c7ad00411898.bindTooltip(
+                `<div>
+                     Klikk på meg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac64e20a9e613dc6fa2b3db6ea1be124 = L.marker(
+                [59.91850221707881, 10.760228810326705],
+                {}
+            ).addTo(map_d9a0bd9499ff23c72623f746f04255ad);
+        
+    
+            var icon_16034353583ab1bafaf20f4d2f628640 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ac64e20a9e613dc6fa2b3db6ea1be124.setIcon(icon_16034353583ab1bafaf20f4d2f628640);
+        
+    
+        var popup_3db225eed0ab6234c6515e095196870b = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            
+                var i_frame_cfba2944efc7b9f7970defddfa6e0b67 = $(`<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGltZyBzcmM9aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL3BsYWNlL1NjaG91c2tqZWxsZXJlbitNaWtyb2JyeWdnZXJpL0A1OS45MTg0NzM3LDEwLjc2MDU4MzMsM2EsNzV5LDkwdC9kYXRhPSEzbTghMWUyITNtNiExc0FGMVFpcE9Yb3BicWZXYVgzX0o5NUNkRlA1T2drMXBhcVZadXdwREQ4dkRxITJlMTAhM2UxMiE2c2h0dHBzOiUyRiUyRmxoNS5nb29nbGV1c2VyY29udGVudC5jb20lMkZwJTJGQUYxUWlwT1hvcGJxZldhWDNfSjk1Q2RGUDVPZ2sxcGFxVlp1d3BERDh2RHElM0R3MjAzLWgxNTItay1ubyE3aTQwMzIhOGkzMDI0ITRtNyEzbTYhMXMweDQ2NDE2ZTY3M2UwNTcwZjk6MHg2YWM5NWViYjE4NDk4NmM0IThtMiEzZDU5LjkxODQxNjIhNGQxMC43NjAyNjEhMTBlNSExNnMlMkZnJTJGMTIyMGZxNW4/YXV0aHVzZXI9MCZlbnRyeT10dHUmZ19lcD1FZ295TURJME1UQXhOaTR3SUtYTURTb0FTQUZRQXclM0QlM0QjPgogICAgICAgICAgICAgICAgPGJyIC8+PHNwYW4+OS4gU2Nob3Vza2plbGxlcmVuIE1pa3JvYnJ5Z2dlcmk8L3NwYW4+CiAgICAgICAgICAgICAgICA8YnIgLz48c3Bhbj5Ucm9uZGhlaW1zdmVpZW4gMiwwNTYwLE9zbG88L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4=" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;"></iframe></div></div>`)[0];
+                popup_3db225eed0ab6234c6515e095196870b.setContent(i_frame_cfba2944efc7b9f7970defddfa6e0b67);
+            
+        
+
+        marker_ac64e20a9e613dc6fa2b3db6ea1be124.bindPopup(popup_3db225eed0ab6234c6515e095196870b)
+        ;
+
+        
+    
+    
+            marker_ac64e20a9e613dc6fa2b3db6ea1be124.bindTooltip(
+                `<div>
+                     Klikk på meg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
