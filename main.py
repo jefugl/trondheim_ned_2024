@@ -40,7 +40,7 @@ def main():
             location=[data.iloc[i]["lat"], data.iloc[i]["lon"]],
             popup=popup,
             icon=folium.Icon(icon="beer", prefix="fa", color="blue"),
-            tooltip=tooltip,
+            # tooltip=tooltip,
         ).add_to(m)
 
     title = "Trondheimsveien ned 2024"
