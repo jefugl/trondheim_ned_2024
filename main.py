@@ -30,12 +30,12 @@ def main():
 
     for i in range(0, len(data)):
         html = f"""<div>
-                <img src={data.iloc[i]["img"]}>
+                <!--<img src={data.iloc[i]["img"]}>-->
                 <br /><span>{data.iloc[i]["name"]}</span>
                 <br /><span>{data.iloc[i]["addr"]}</span>
                 </div>"""
         iframe = folium.IFrame(html)
-        popup = folium.Popup(iframe, min_width=300, max_width=400)
+        popup = folium.Popup(iframe, min_width=200, max_width=200)
         folium.Marker(
             location=[data.iloc[i]["lat"], data.iloc[i]["lon"]],
             popup=popup,
